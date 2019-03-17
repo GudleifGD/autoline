@@ -1,0 +1,540 @@
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Thin.eot');
+    src: local('Geometria Thin'), local('Geometria-Thin'), url('../fonts/Geometria-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-Thin.woff') format('woff'), url('../fonts/Geometria-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-MediumItalic.eot');
+    src: local('Geometria MediumItalic'), local('Geometria-MediumItalic'), url('../fonts/Geometria-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-MediumItalic.woff') format('woff'), url('../fonts/Geometria-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Italic.eot');
+    src: local('Geometria Italic'), local('Geometria-Italic'), url('../fonts/Geometria-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-Italic.woff') format('woff'), url('../fonts/Geometria-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Heavy.eot');
+    src: local('Geometria Heavy'), local('Geometria-Heavy'), url('../fonts/Geometria-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-Heavy.woff') format('woff'), url('../fonts/Geometria-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-ExtraBoldItalic.eot');
+    src: local('Geometria ExtraBoldItalic'), local('Geometria-ExtraBoldItalic'), url('../fonts/Geometria-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-ExtraBoldItalic.woff') format('woff'), url('../fonts/Geometria-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Medium.eot');
+    src: local('Geometria Medium'), local('Geometria-Medium'), url('../fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-Medium.woff') format('woff'), url('../fonts/Geometria-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-BoldItalic.eot');
+    src: local('Geometria BoldItalic'), local('Geometria-BoldItalic'), url('../fonts/Geometria-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-BoldItalic.woff') format('woff'), url('../fonts/Geometria-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-LightItalic.eot');
+    src: local('Geometria LightItalic'), local('Geometria-LightItalic'), url('../fonts/Geometria-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-LightItalic.woff') format('woff'), url('../fonts/Geometria-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-HeavyItalic.eot');
+    src: local('Geometria HeavyItalic'), local('Geometria-HeavyItalic'), url('../fonts/Geometria-HeavyItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-HeavyItalic.woff') format('woff'), url('../fonts/Geometria-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria.eot');
+    src: local('Geometria'), url('../fonts/Geometria.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria.woff') format('woff'), url('../fonts/Geometria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Bold.eot');
+    src: local('Geometria Bold'), local('Geometria-Bold'), url('../fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-Bold.woff') format('woff'), url('../fonts/Geometria-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-ExtraBold.eot');
+    src: local('Geometria ExtraBold'), local('Geometria-ExtraBold'), url('../fonts/Geometria-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-ExtraBold.woff') format('woff'), url('../fonts/Geometria-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-ThinItalic.eot');
+    src: local('Geometria ThinItalic'), local('Geometria-ThinItalic'), url('../fonts/Geometria-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-ThinItalic.woff') format('woff'), url('../fonts/Geometria-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-ExtraLightItalic.eot');
+    src: local('Geometria ExtraLightItalic'), local('Geometria-ExtraLightItalic'), url('../fonts/Geometria-ExtraLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-ExtraLightItalic.woff') format('woff'), url('../fonts/Geometria-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Light.eot');
+    src: local('Geometria Light'), local('Geometria-Light'), url('../fonts/Geometria-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-Light.woff') format('woff'), url('../fonts/Geometria-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-ExtraLight.eot');
+    src: local('Geometria ExtraLight'), local('Geometria-ExtraLight'), url('../fonts/Geometria-ExtraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/Geometria-ExtraLight.woff') format('woff'), url('../fonts/Geometria-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+.back_car {
+    background-image: url(../img/back_car.png);
+    background-position: 50% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 770px;
+    margin: -8px;
+    margin-bottom: 1px;
+}
+.container {
+    display: grid;
+    justify-items:end;
+}
+
+.top_block {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 975px;
+    float: right;
+    font-family: 'Geometria';
+    font-weight: bold;
+    font-style: normal;
+    margin-right: 20px;
+}
+
+.top_block h1 {
+    color: #fed130;
+}
+
+.number_phone {
+    display: flex;
+    align-items: center;
+}
+
+.number_phone p {
+    padding: 12px;
+}
+
+.number_phone :last-child {
+    color: #fed130;
+}
+
+.calk {
+    float: right;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.calk_left_block  {
+    font-size: 72px;
+    font-family: 'Geometria';
+    font-weight: 800;
+    font-style: normal;
+    margin: 0;
+    line-height: 74px;
+     text-align: right;
+}
+
+.gradient_car {
+    text-transform: uppercase;
+    background: linear-gradient(154deg,#507177 0%, #99a5a6 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:0;
+}
+
+.onemin {
+    color: #fed130;
+   
+    margin:0;
+}
+
+.calk_form {
+    height: 490px;
+    width: 350px;
+    background-color: black;
+    border: 2px solid #323232;
+    border-radius: 10px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calk_form_head {
+    text-align: left;
+    color: #fed130;
+    font-family: 'Geometria';
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16.2px;
+    width: 275px;
+    margin: 24px;
+}
+.calk_form form {
+    width: 290px;
+    margin-bottom: 40px;
+}
+.calk_form form>input {
+    width: 275px;
+    height: 42px;
+    font-size: 12px;
+    border-radius: 1px;
+    margin: 5px;
+    border: none;
+    color: #fed130;
+    background-color: #323232;
+    padding-left: 10px;
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.calk_form form>input[type="text"]::-webkit-input-placeholder {
+    color: #fed130;
+}
+
+.calk_form form>input[type="text"]::-moz-placeholder {
+    color: #fed130;
+}
+.calk_form button {
+    background-color: #fed130;
+    padding: 20px 35px;
+    border: none;
+    color: black;
+    font-size: 10px;
+    border-radius:1px; 
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bottom_block {
+    width: 900px;
+    height: 107px;
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social_net>a {
+    color: black;
+}
+.services>a {
+    color: #353535;
+    font-family: 'Geometria';
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    font-size:12px; 
+    margin: 0 18px;
+}
+.left_fix {
+    display: grid;
+    justify-content: center;
+    background-image: url(../img/back_carch.png);
+    background-position: center center;
+    background-size: cover; 
+    margin: 0 -8px;
+}
+.car_ch {
+    
+    max-width: 1260px;
+    min-width: 1200px;
+
+}
+.car_ch_head {
+    font-size: 72px;
+    font-family: 'Geometria';
+    font-weight: 800;
+    font-style: normal;
+    color: #fed130;
+    margin: 0;
+    padding-top: 95px;
+    padding-bottom: 15px;
+}
+
+.car_ch_text {
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    max-width: 650px;
+}
+
+.car_ch_button {
+    background-color: #fed130;
+    padding: 20px 35px;
+    border: none;
+    color: black;
+    font-size: 10px;
+    border-radius:30px; 
+    margin-top:65px; 
+    margin-bottom:65px; 
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.euro {
+    min-height: 840px;
+}
+.euro_title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 65px 0 45px 0;
+}
+.euro_title>h1 {
+    font-size: 75px;
+    font-family: 'Geometria';
+    font-weight: 800;
+    font-style: normal;
+    line-height: 80px;
+    margin: 0;
+}
+.euro_title>h2 {
+    font-size: 35px;
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 40px;
+    margin: 0;
+}
+.euro_avto {
+    background-image: url(../img/euro_cars.png);
+    background-position: center center;
+    background-size: cover; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -8px;
+}
+.euro_avto>img {
+    height: 209px;
+    width: auto;
+    margin: 7px;
+    border-radius: 2px;
+}
+.euro_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.euro_text>p {
+    max-width: 560px;
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    margin: 40px 0;
+}
+
+.euro_button {
+    display: flex;
+    justify-content: center;
+}
+.euro_button>button {
+ 
+    padding: 20px 35px;
+    
+    color: black;
+    font-size: 10px;
+    border-radius:30px; 
+    margin:20px;  
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+}
+.euro_button #eb1 {
+    background-color: #fed130;
+    border: none;
+}
+.euro_button #eb2 {
+    background-color: white;
+    border: 3px solid #fed130;
+}
+.left_fix_usa {
+    display: grid;
+    justify-content: center;
+    background-image: url(../img/back_usa.png);
+    background-position: center center;
+    background-size: cover; 
+    margin: 0 -8px;
+}
+.car_ch_usa {
+    
+    max-width: 1260px;
+    min-width: 1200px;
+
+}
+.car_ch_head_usa {
+    font-size: 72px;
+    font-family: 'Geometria';
+    font-weight: 800;
+    font-style: normal;
+    color: #fed130;
+    margin: 0;
+    padding-top: 95px;
+    padding-bottom: 15px;
+}
+
+.car_ch_text_usa {
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    max-width: 650px;
+    color: white;
+}
+
+.car_ch_button_usa {
+    background-color: #fed130;
+    padding: 20px 35px;
+    border: none;
+    color: black;
+    font-size: 10px;
+    border-radius:30px; 
+    margin-top:65px; 
+    margin-bottom:65px; 
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+}
+.left_fix_cert{
+    display: grid;
+    justify-content: center;
+    background-image: url(../img/back_cert.png);
+    background-position: center center;
+    background-size: cover; 
+    margin: 0 -8px;
+}
+.car_ch_cert {
+    
+    max-width: 1260px;
+    min-width: 1200px;
+
+}
+.car_ch_head_cert {
+    font-size: 72px;
+    font-family: 'Geometria';
+    font-weight: 800;
+    font-style: normal;
+    color: #000;
+    margin: 0;
+    padding-top: 95px;
+    padding-bottom: 15px;
+}
+
+.car_ch_text_cert {
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    max-width: 650px;
+    color: #000;
+}
+
+.car_ch_button_cert {
+    background-color: #fed130;
+    padding: 20px 20px;
+    border: none;
+    color: black;
+    font-size: 10px;
+    border-radius:30px; 
+    margin-top:65px; 
+    margin-bottom:65px; 
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+}
+footer {
+    min-height: 138px;
+    background-color: #000;
+    margin: -8px;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_logo {
+    color: #fed130;
+    font-family: 'Geometria';
+    font-weight: bold;
+    font-style: normal;
+    border-right:2px solid #444444; 
+    padding-right: 30px;
+}
+.footer_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 960px;
+}
+.footer_sn>a {
+    color: white;
+}
+.services_ft>a {
+    color: white;
+    font-family: 'Geometria';
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    font-size:12px; 
+    margin: 0 18px;
+}
