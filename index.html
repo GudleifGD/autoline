@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <!-- <script src="js/script.js"></script> -->
+    <script src="js/script.js"></script>
 </head>
 
 <body>
+    <div class="modal_result" id="modal_result">
+            <a href="#close" title="Закрыть" class="close">X</a>
+    </div>
     <div class="back_car">
         <div class="container">
             <div class="top_block">
@@ -39,14 +42,18 @@
                     <div class="calk_form_head">
                         <p>КАЛЬКУЛЯТОР РАСТАМОЖКИ</p>
                     </div>
-                    <form action="#" id="calk">
-                        <input type="text" placeholder='Цена автомобиля' required id="price">
-                        <input type="text" placeholder='Обьём, см' required id="vol">
-                        <input type="text" placeholder='Топливо' required id="fuel">
-                        <input type="text" placeholder='Год выпуска' required id="age">
-                        <input type="text" placeholder='Курс евро к доллару' required id="euro">
+                    <form action="#" id="calk" method="POST">
+                        <input type="number" placeholder='Цена автомобиля' required id="price">
+                        <input type="number" placeholder='Обьём, см' required id="vol">
+                        <select name="fuel" id="fuel" required>
+                                <option value="" label="Вибор топлива"></option>
+                            <option value="1" label="Бензин"></option>
+                            <option value="2" label="Дизель"></option>
+                        </select>
+                        <input type="number" placeholder='Год выпуска' required id="age">
+                        <input type="number" placeholder='Курс евро к доллару' required id="euro">
                     </form>
-                    <button type="submit" form="calk"> РАСЧИТАТЬ СТОИМОСТЬ</button>
+                    <a role="button" href="#modal_result" onclick="calc()" > РАСЧИТАТЬ СТОИМОСТЬ</a>
                 </div>
             </div>
             <div class="bottom_block">

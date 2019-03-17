@@ -241,6 +241,20 @@
     font-weight: normal;
     font-style: normal;
 }
+.calk_form form>select {
+    width: 285px;
+    height: 42px;
+    font-size: 12px;
+    border-radius: 1px;
+    margin: 5px;
+    border: none;
+    color: #fed130;
+    background-color: #323232;
+    padding-left: 10px;
+    font-family: 'Geometria';
+    font-weight: normal;
+    font-style: normal;
+}
 
 .calk_form form>input[type="text"]::-webkit-input-placeholder {
     color: #fed130;
@@ -249,7 +263,7 @@
 .calk_form form>input[type="text"]::-moz-placeholder {
     color: #fed130;
 }
-.calk_form button {
+.calk_form>a {
     background-color: #fed130;
     padding: 20px 35px;
     border: none;
@@ -537,4 +551,43 @@ footer {
     text-decoration: none;
     font-size:12px; 
     margin: 0 18px;
+}
+.modal_result {
+    height: 490px;
+    width: 350px;
+    background-color: black;
+    border: 2px solid #323232;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 20%;
+    bottom: 0;
+    left: 35%;
+    right: 0;
+
+}
+.modal_result:target {
+    display: flex;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+    font-family: 'Geometria';
+    font-weight: 800;
+    font-style: normal;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
 }
